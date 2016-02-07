@@ -27,7 +27,7 @@ In Elixir, we could write this code as follows:
           :erlang.raise(:error, reason, where)
       end
     end
-    
+
     def spawn_compilers([], _output) do
       :done
     end
